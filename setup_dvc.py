@@ -152,38 +152,4 @@ def create_dvc_artifacts():
             shutil.copy2(file, dest)
     
     # Create README for artifacts
-    readme_content = """# DVC Setup Artifacts
-
-This directory contains evidence of DVC setup for the Insurance Risk Analytics project.
-
-## Files Included:
-
-### 1. .dvc/ directory
-- `.dvc/config` - DVC configuration file
-- `.dvc/.gitignore` - Git ignore rules for DVC
-- `.dvc/state` - DVC state file
-- `.dvc/plots/` - Plot templates directory
-
-### 2. DVC tracked files
-- `data/MachineLearningRating_v3.txt.dvc` - DVC pointer file for data
-
-### 3. Pipeline configuration
-- `dvc.yaml` - DVC pipeline definition
-- `.dvcignore` - DVC ignore patterns
-
-### 4. Parameters
-- `params/eda_params.yaml` - EDA parameters
-- `params/preprocess_params.yaml` - Preprocessing parameters
-
-## Verification:
-To verify DVC is properly set up:
-
-```bash
-# Check DVC configuration
-dvc config --list
-
-# Check DVC status
-dvc status
-
-# Check tracked files
-dvc list .
+    
