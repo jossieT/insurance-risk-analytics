@@ -1,0 +1,9 @@
+# DVC internal files to ignore in Git
+tmp/
+state-journal*
+state-wal*
+state*
+lock*
+/rw
+/updater
+/updater.lock

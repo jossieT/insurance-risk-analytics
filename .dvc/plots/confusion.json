@@ -1,0 +1,8 @@
+{
+  "template": "confusion",
+  "x": "predicted",
+  "y": "actual",
+  "title": "Confusion Matrix",
+  "xlab": "Predicted",
+  "ylab": "Actual"
+}
