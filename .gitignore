@@ -1,0 +1,106 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+.localized
+.Trashes
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+*.iml
+*.iws
+*.ipr
+*.classpath
+*.project
+*.settings
+.history/
+.vs/
+*.suo
+*.user
+*.bak
+
+# Build and Dependency Directories
+build/
+dist/
+target/
+out/
+bin/
+obj/
+node_modules/
+vendor/
+venv/
+.venv/
+
+# Compiled and Temporary Files
+*.class
+*.pyc
+*.o
+*.so
+*.lo
+*.la
+*.dll
+*.exe
+*.obj
+*.lib
+*.a
+*.ilk
+*.pdb
+*.exp
+*.com
+*.manifest
+*.res
+*.cache
+*.tmp
+*.temp
+*.swp
+*.swo
+*.log
+*.err
+*.dvi
+*.aux
+*.bbl
+*.blg
+*.brf
+*.cb
+*.idx
+*.ind
+*.lof
+*.lot
+*.nav
+*.out
+*.toc
+*.snm
+*.vrb
+*.vsc
+*.fdb_latexmk
+*.fls
+*.synctex.gz*
+
+# Configuration and Environment Files
+.env
+.env.*
+.flaskenv
+.npmrc
+.yarnrc
+.bowerrc
+.grunt
+.sass-cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+# Data
+data/
+# Test and Coverage Files
+coverage/
+.nyc_output/
+*.gcno
+*.gcda
+*.gcov
+.next/ # Next.js build output
+.nuxt/ # Nuxt.js build output
+.svelte-kit/ # SvelteKit build output
