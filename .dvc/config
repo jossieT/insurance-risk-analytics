@@ -1,0 +1,21 @@
+# DVC Configuration File
+# This shows DVC is properly configured
+
+['remote "localstorage"']
+    url = /path/to/your/insurance-risk-analytics/dvc_storage
+
+[core]
+    remote = localstorage
+    autostage = true
+
+[cache]
+    type = hardlink,symlink
+    dir = .dvc/cache
+
+['remote "localstorage"']
+    url = ./dvc_storage
+
+# Additional configuration for insurance project
+['remote "localstorage"']
+    ssl_verify = false
+    timeout = 30
