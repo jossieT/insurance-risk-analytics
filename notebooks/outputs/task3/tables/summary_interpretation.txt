@@ -1,0 +1,6 @@
+Provinces (Claim Frequency - chi2): **Fail to reject H0** (p=0.0995) — no evidence of a difference.
+Province pair Gauteng vs Western Cape (Claim Frequency - two-prop z): **Fail to reject H0** (p=0.9074) — no evidence of a difference.
+Zip 2000 vs 122 (Claim Frequency - two-prop z): Insufficient data to test.
+Zip 2000 vs 122 (Margin - t-test): **Reject H0** (p=0.0000) — there is a statistically significant difference.
+Gender (Claim Frequency - chi2): **Fail to reject H0** (p=0.8778) — no evidence of a difference.
+Gender (Claim Severity - t-test): **Reject H0** (p=0.0000) — there is a statistically significant difference.
